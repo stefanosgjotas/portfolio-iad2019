@@ -1,13 +1,17 @@
 p {
-  color: red;
+  color: blue;
 }
 
 .spalte {
-  width: 38rem;
+  width: 58rem;
   margin: 0 auto;
-  background-color: red;
+  background-color: green;
 }
 
 .header {
   background-color: yellow;
+}
+
+.big {
+  font-size: 150;
 }
