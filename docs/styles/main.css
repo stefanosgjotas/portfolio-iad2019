@@ -3,22 +3,23 @@ html {
 }
 
 body {
-/*  background-color: #ea504c; */
-  background-image: url("box_beige.jpg");
+  background-color: #ea504c;
 }
 
 p {
-  color: black;
-  font-size: 14px;
-  text-align: right;
+  color: white;
+  font-size: 16px;
+  text-align: left;
 }
 
 .titel-fonts {
   font-family: 'Modak', cursive;
   font-weight: normal;
-  line-height: 85px;
+  font-size: 2em;
+  line-height: 110px;
+  text-shadow: 0px 10px 20px #9c3e3b;
+  /* margin-left: 10em; */
 }
-
 
 /* div {
   margin-left: 100px;
@@ -26,18 +27,34 @@ p {
 } */
 
 .spalte {
- max-width: 20em;
- width: 95%;
+ max-width: 30em;
+ width: 90%;
  margin-left: auto;
  margin-right: auto;
+ /* background-color: #f6e7b9;
+ border-style: solid;
+ border-color: #f6e7b9;
+ border-width: 1px 100px 4px 100px; */
 }
 
 .spalte-text {
- max-width: 60%;
+ max-width: 50%;
  width: 100%;
- line-height: 20px;
+ line-height: 25px;
  margin-left: auto;
- margin-right: 0;
+ margin-right: 3em;
+}
+
+.tiefergelegt {
+  padding-top: 8em;
+}
+
+.spalte-intro {
+ width: 85em;
+ font-size: 20px;
+ line-height: 1em;
+ /* text-shadow: 2px 2px 5px #9c3e3b; */
+ margin-left: 4em;
 }
 
 /*.spalte {
@@ -48,6 +65,17 @@ p {
 
 .spalte img {
  width: 100%;
+ height: 100%;
+}
+
+.spalte2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.spalte3 img {
+  max-width: 20px;
+  max-height: 20px;
 }
 
 /* .header {
@@ -55,7 +83,8 @@ p {
 } */
 
 .big {
-  font-size: 40px;
+  font-size: 4em;
+  color: #40c5a3;
 }
 
 /* .small-picture {
@@ -67,7 +96,54 @@ p {
   background-color: red;
 }
 
+.zitat {
+  font-family: 'Modak', normal;
+  font-weight: normal;
+  color: #40c5a3;
+  font-size: 5em;
+  line-height: 90px;
+  text-shadow: 0px 0px 10px #9c3e3b;
+  text-align: center;
+  max-width: 100%;
+}
+
+.ausrichtung-links {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.ausrichtung-rechts {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
 .auszeichnung {
   font-weight: bold;
   color: white
+}
+
+.pond {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rupaul figcaption {
+    width: 90em; height: 25em;
+}
+
+@media (min-width: 480px) {
+    .rupaul {
+        position: relative;
+        width: auto; height: absolute;
+    }
+    /* .rupaul div {
+        position: absolute;
+    } */
+    .rupaul figcaption {
+        position: absolute;
+        bottom: 10em;
+    }
 }
