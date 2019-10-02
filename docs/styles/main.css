@@ -131,7 +131,8 @@ align-items: center;
 }
 
 .rupaul figcaption {
-    width: 90em; height: 25em;
+    width: 100%;
+    display: block;
 }
 
 @media (min-width: 480px) {
