@@ -112,7 +112,7 @@ a:link, a:visited {
   background-image: linear-gradient(90deg,#21ae83,#66cc99,#ff6633,#c6110c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  cursor: auto;
+  cursor: pointer; /* Add a mouse pointer on hover */
 }
 
 a:hover {
