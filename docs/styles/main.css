@@ -185,7 +185,7 @@ h3 {
 }
 
 h4 {
-  font-size: 16px;
+  font-size: 17px;
   line-height: 24px;
   font-weight: 400;
   margin-top: -5%;
@@ -260,7 +260,7 @@ p {
     line-height: 24px;
   }
   h4 {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 22px;
     }
   h5 {
@@ -339,7 +339,7 @@ p {
 
 .box {
   float: left;
-  text-align: center;
+  text-align: left;
   font-weight: bold;
   width: 28em;
   height: 100%;
@@ -347,6 +347,10 @@ p {
   border: 1px solid white;
   margin: 20px;
   box-shadow: 0 20px 30px rgba(0,0,0,.1);
+}
+
+.textcenter {
+  text-align: center;
 }
 
 .grau {
